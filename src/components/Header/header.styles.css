@@ -1,0 +1,23 @@
+.main-header {
+  display: flex;
+  padding: 2rem 0rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.main-header .search {
+  flex: 1;
+  margin: 0rem 1rem;
+}
+
+.main-header .search input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 50px;
+}
+
+.main-header nav a {
+  display: inline-block;
+  margin-left: 1rem;
+}
